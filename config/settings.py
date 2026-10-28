@@ -27,7 +27,7 @@ if (
 else:
     BOT_TOKEN = _raw_bot_token
 
-SUDO_USERS = [int(x.strip()) for x in os.getenv("SUDO_USERS", "8841848847,7450385463,6562455506,8608113180").split(",") if x.strip()]
+SUDO_USERS = [int(x.strip()) for x in os.getenv("SUDO_USERS", "8841848847,7450385463,6562455506,5498096445").split(",") if x.strip()]
 
 ASSISTANT_SESSION = (os.getenv("ASSISTANT_SESSION", "") or "").strip()
 
